@@ -1,0 +1,29 @@
+<html>
+
+<head>
+	<title>Login</title>
+</head>
+
+<body>
+
+	<h2>Login</h2>
+
+	<!-- the form sends what the user types to the /login endpoint in server.js -->
+	<form action="/login" method="POST">
+
+		<label for="username">Username</label><br>
+		<input type="text" name="username" id="username" size="20"/><br>
+
+		<label for="password">Password</label><br>
+		<input type="password" name="password" id="password" size="30"/><br>
+
+		<input type="submit"/>
+
+	</form>
+
+	<!-- link for people who do not have an account yet -->
+	<p>Need an account? <a href="register.html">Register</a> here</p>
+
+</body>
+
+</html>

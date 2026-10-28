@@ -1,0 +1,32 @@
+<html>
+
+<head>
+	<title>Register</title>
+</head>
+
+<body>
+
+	<h2>Register</h2>
+
+	<!-- the form sends what the user types to the /register endpoint in server.js -->
+	<form action="/register" method="POST">
+
+		<label for="username">Username</label><br>
+		<input type="text" name="username" id="username" size="20"/><br>
+
+		<label for="email">Email</label><br>
+		<input type="text" name="email" id="email" size="40"/><br>
+
+		<label for="password">Password</label><br>
+		<input type="password" name="password" id="password" size="30"/><br>
+
+		<input type="submit"/>
+
+	</form>
+
+	<!-- link for people who already have an account -->
+	<p>Already have an account? <a href="login.html">Login</a> here</p>
+
+</body>
+
+</html>
